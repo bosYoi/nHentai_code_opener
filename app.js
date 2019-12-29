@@ -18,3 +18,9 @@ function openLink(){
         document.getElementById('codeInput').value = '';
     }
 }
+
+document.addEventListener('keypress', function(e){
+    if(e.key == 'Enter'){
+        goBtn.click();
+    }
+})
