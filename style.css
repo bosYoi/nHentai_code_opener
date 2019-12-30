@@ -58,3 +58,7 @@ body{
 #openCodeBtn:focus{
     outline:none;
 }
+
+#message{
+    color: white;
+}
